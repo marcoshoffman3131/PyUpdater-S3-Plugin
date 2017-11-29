@@ -21,6 +21,15 @@ Optional - If set will be used globally. Will be overwritten when you add scp se
 | PYIU_AWS_SECRET      | You amazon api secret   |
 | PYIU_AWS_BUCKET | Bucket name (optional)|
 
+For windows users, this means you may have to set your environment variables through command prompt.
+Linux users, use Export commands instead
+
+Example:
+SET PYU_AWS_ID=abcdefg
+SET PYU_AWS_SECRET=abcdefg
+pyupdater settings --plugin s3
+ddwda
+
 
 ## Changes
 
